@@ -1,0 +1,34 @@
+
+.landingPage-body {
+    max-width: 1440;
+    background: rgba(255, 255, 255, 1);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+.landingPage-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 67px 80px 67px 80px;
+}
+
+.landingPage-logo {
+    font-weight: bold;
+    text-decoration: none;
+    color: gray;
+}
+
+.landingPage-nav-list {
+    display: flex;
+    flex-direction: row;
+    gap: 20px 100px; 
+    list-style-type: none;
+}
+
+.landingPage-nav-list a {
+    text-decoration: none;
+    color: black;
+}
+
