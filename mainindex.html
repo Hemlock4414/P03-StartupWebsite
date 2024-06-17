@@ -3,73 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="mainstyle.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="mainstyle.css">
+    <link rel="icon" href="/img/favicon.ico">
     <title>Landing Page</title>
 </head>
 
 <body class="landingPage-body">
 
-    <header class="landingPage-header">
-    <div class="landing-page-logo">
-        <img src="./img/favicon.png">
-        JavaJive
-    </div>
+    <navbar class="landingPage-navbar">
+        <div class="landingPage-logo">
+            <div class="logopic"->
+                <img src="./img/logo.png">
+            </div>
+            <div id="logotext">
+                <h5>JavaJive</h5>
+            </div>
+        </div>
 
-    <nav class="landingPage-nav">
-        <ul class="landingPage-nav-list">
-            <li>
-                <a href="./index.html">Landing Page</a>
-            </li>
-            <li>
-                <a href="./shop.html">Shop</a>
-            </li>
-            <li>
-                <a href="./contact.html">Contact</a>
-            </li>
-        </ul>
-    </nav>
+        
+            <ul class="landingPage-NavList">
+                <li>
+                <a href="mainindex.html" class="btnnav">Startseite</a>
+                </li>
+                <li>
+                <a href="#" class="btnnav">Shop</a>
+                </li>
+                <li>
+                <a href="#"class="btnnav">Kontakt</a>
+                </li>
+            </ul>
+        
+    </navbar>
+
+
+    <header class="box1">
+        <h1> HANDVERLESENER KAFFEE</h1>
+        <h2>
+            JEDE UNSERER HANDVERLSENEN KAFFEESORTEN WIRD 
+            DEM KUNDEN FRISCH GELIEFERT, UM EIN PERFEKTES 
+            AROMA ZU GARANTIEREN.
+        </h2>    
+        <div class="button-container">
+            <div class="btn-text">
+                <h2>Hier geht es direkt zu unserem Shop</h2>
+            </div>
+            <a href="" class="button1">Shop</a>  
+        </div>
     </header>
 
-
-    <div class="box1">
-        <h1 class="title"> HANDVERLESENER KAFFEE</h1>
-        <h4 class="text">JEDE UNSERER HANDVERLSENEN KAFFEESORTEN WIRD DEM KUNDEN FRISCH GELIEFERT, UM EIN PERFEKTES AROMA ZU GARANTIEREN.</h4>
-        <div class="button-container">
-            <button>Shop</button>  
-            <button>Contact</button>
-        </div>
+    <main>
         <div class="foto">
-            <img  src="img/kaffeebohnen.jpg">
-            </div>
-         <div class="title1">
-            <h3> Unsere beliebtesten Kaffeebohnen </h3>
+            <img src="img/kaffeebohnen.png">
+        </div>
+
+        <div class="title1">
+            <h2> Unsere beliebtesten Kaffeebohnen </h2>
         </div>
 
 
-        <div class="flex-con">
+        <div class="flex-con1">
             <div class="row1-left">
-                <div>
+                <div class="title2">
                     <h2>BRAZIL YELLOW BOURBON 250G</h2>
                 </div>
                 <div>
                     <p>Der Brazil Yellow Bourbon zeichnet sich durch 
-                        seinen samtig weichen Charakter aus.</p>
+                        seinen samtig weichen Charakter aus.
+                    </p>    
                 </div>
-                <a href="html_demo.html#C4"><button>Shop</button></a>
+                <a href="" class="button2">Shop</a>
             </div>
-            <div class="row1-right">            
-                <img class="picbig1" src="img/kaffee-brazil_yellow.jpg">
+            <div>            
+                <img class="picbig1" src="img/kaffee-brazil_yellow.jpg" style="width:100%;">
             </div>
         </div>
     
         <div class="flex-con2">
             <div class="row2-left">
-                <img class="picbig2" src="img/kaffee-malabar-india.jpg">
+                <img class="picbig2" src="img/kaffee-malabar-india.jpg" style="width:100%;">
             </div>
         
             <div class="row2-right">
-                <div>
+                <div class="title2">
                     <h2>BIO INDIA MALABAR</h2>
                 </div>
                 <div>
@@ -78,76 +94,96 @@
                         vollmundigen Körper und Noten von 
                         Trockenfrüchten aus.</p>
                 </div> 
-                <a href="html_demo.html#C4"><button>Shop</button></a> 
-            </div>  
-                
+                <a href="" class="button2">Shop</a> 
+            </div>     
         </div>
     
         <div class="meinung">
-            <div>
+            <div class="title3">
                 <h2>Kundenmeinungen</h2>
             </div>
-            <div>    
+            <div class="untertitel">    
                 <h3>Was unsere Stammkunden über uns sagen</h3>
             </div>
-        </div>    
+        </div> 
+
         <div class="flex-kunden">
             <div class="kunde1">
                 <div class="hkunden">
-                    <h3>"Ein grosses Lob"</h3>
+                    <h2>"Ein grosses Lob"</h2>
                 </div>
                 <div class="box2">
                     <div>
-                        <img class="small" src="img/portrait1.jpeg">
+                        <img class="smallpic" src="img/portrait1.jpeg">
                     </div>
-                    <div class="name">
-                        <p>Robert</p>
+                    <div>
+                        <p>Robert<br>
+                            63, Olten
+                        </p>    
                     </div> 
                 </div>
             </div>            
             <div class="kunde1">
                 <div class="hkunden">
-                    <h3>"Schmeckt exquisit"</h3>
+                    <h2>"Schmeckt exquisit"</h2>
                 </div>
                 <div class="box2">
                     <div>
-                        <img class="small" src="img/portrait2.jpeg">
+                        <img class="smallpic" src="img/portrait2.jpeg">
                     </div>
-                    <div><p>Jackson</p></div>
+                    <div><p>Jackson<br>
+                            32, Männedorf
+                        </p>
+                    </div>
                 </div>
-            </div class="hkunden">    
+            </div>    
             <div class="kunde1">
-                <div>
-                    <h3>"Die Besten der Welt"</h3>
+                <div class="hkunden">
+                    <h2>"Die Besten der Welt"</h2>
                 </div>
                 <div class="box2">
                     <div>
-                        <img class="small" src="img/portrait3.jpeg">
+                        <img class="smallpic" src="img/portrait3.jpeg">
                     </div>
-                    <div class="name">
-                        <p>Alex</p>
+                    <div>
+                        <p>Alex<br>
+                            65, Urdorf
+                        </p>
                     </div>
                 </div>
             </div>    
         </div>
 
+        <div class="contact">
+            <div class="title3">
+                <h2>Kontakt</h2>
+            </div>
+            <p>
+                Möchten Sie uns auch ihre Meinung mitteilen?<br>
+                Oder haben Sie Fragen oder sonstige Anliegen?<br>
+                Zögern Sie nicht und benutzen unser Kontaktformular!
+            </p>
+            <a href="" class="button1">Kontakt</a>
+        </div>
+    </main>
 
-        <footer class="bottom">
-            <div>
-                <h3>Social Media</h3>
-                <a href="#" class="fa fa-facebook"></a>&emsp;
-                <a href="#" class="fa fa-twitter"></a>&emsp;
-                <a href="#" class="fa fa-instagram"></a>&emsp;
-                <a href="#" class="fa fa-linkedin"></a>
-            </div>
-            <div>
-                <p>JavaJive</p>
-                <p>Räffelstrasse 12<br>
-                8045 Zürich</p>
-                <p>Telefon</p>
-                <p>E-Mail</p>
-            </div>
-        </footer>   
+    <footer class="bottom">
+        <div>
+            <h2>Social Media</h2><br /> 
+            <br />
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+        </div>
+        <div>
+            <p>JavaJive</p>
+            <p>Räffelstrasse 12<br>
+            8045 Zürich</p>
+            <p>Telefon</p>
+            <p>E-Mail</p>
+        </div>
+    </footer>   
 
 </body>
 </html>
